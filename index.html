@@ -3,26 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SimAcademy | Educación Médica y Simulación Clínica</title>
-  <meta name="description" content="SimAcademy - Formación médica de alta fidelidad, simulación clínica y educación médica continua en México.">
-  <meta property="og:title" content="SimAcademy | Educación Médica y Simulación Clínica">
-  <meta property="og:description" content="Formación médica de alta fidelidad, simulación clínica y educación médica continua en México.">
+  <title>SimAcademy Blog | Educación Médica y Simulación Clínica</title>
+  <meta name="description" content="Blog de SimAcademy — Artículos sobre simulación clínica, formación médica continua y las últimas tendencias en educación médica.">
+  <meta property="og:title" content="SimAcademy Blog | Educación Médica y Simulación Clínica">
+  <meta property="og:description" content="Artículos sobre simulación clínica, formación médica continua y las últimas tendencias en educación médica.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://blog.simacademy.lat">
+  <meta property="og:image" content="https://blog.simacademy.lat/assets/og-image.png">
+  <link rel="canonical" href="https://blog.simacademy.lat">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
   <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
-            primary: '#1a1a2e',
-            accent: '#e63946',
-            surface: '#f8f9fa'
+            brand: {
+              purple: '#6B21A8',
+              purpleLight: '#A855F7',
+              purpleDark: '#4C1D95',
+              green: '#059669',
+              greenLight: '#10B981',
+              greenDark: '#047857',
+            }
           },
           fontFamily: {
-            sans: ['Inter', 'system-ui', 'sans-serif']
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            serif: ['Playfair Display', 'Georgia', 'serif'],
           }
         }
       }
@@ -30,79 +38,231 @@
   </script>
   <style>
     body { font-family: 'Inter', system-ui, sans-serif; }
-    .gradient-text {
-      background: linear-gradient(135deg, #1a1a2e 0%, #e63946 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
+    .font-serif { font-family: 'Playfair Display', Georgia, serif; }
+    .card-hover { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+    .card-hover:hover { transform: translateY(-4px); box-shadow: 0 12px 24px rgba(0,0,0,0.1); }
+    .tag-pill { transition: background 0.15s ease; }
+    .tag-pill:hover { background: #6B21A8; color: white; }
   </style>
 </head>
-<body class="bg-surface text-primary min-h-screen flex flex-col">
+<body class="bg-white text-gray-900 antialiased">
 
-  <!-- Header -->
-  <header class="bg-white shadow-sm">
-    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-      <div class="flex items-center gap-4">
-        <img src="assets/logos/SimAcademyLogo-v3.png" alt="SimAcademy" class="h-12">
-        <div>
-          <h1 class="text-xl font-bold text-primary">SimAcademy</h1>
-          <p class="text-xs text-gray-500">Educación Médica y Simulación Clínica</p>
-        </div>
+  <!-- HEADER -->
+  <header class="bg-white border-b border-gray-100 sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="flex items-center justify-between h-16">
+        <!-- Logo + Wordmark -->
+        <a href="/" class="flex items-center gap-3">
+          <img src="assets/logos/SimAcademyLogo-v3.png" alt="SimAcademy" class="h-10">
+          <div>
+            <span class="font-bold text-gray-900 text-lg leading-none block">SimAcademy</span>
+            <span class="text-xs text-brand-purple font-medium">Blog</span>
+          </div>
+        </a>
+        <!-- Nav -->
+        <nav class="hidden md:flex items-center gap-6">
+          <a href="#articulos" class="text-sm font-medium text-gray-600 hover:text-brand-purple transition-colors">Artículos</a>
+          <a href="#categorias" class="text-sm font-medium text-gray-600 hover:text-brand-purple transition-colors">Categorías</a>
+          <a href="https://simacademy.lat" class="text-sm font-medium text-gray-600 hover:text-brand-purple transition-colors">SimAcademy.lat</a>
+          <a href="#contacto" class="text-sm font-semibold bg-brand-purple text-white px-4 py-2 rounded-lg hover:bg-brand-purpleDark transition-colors">Contacto</a>
+        </nav>
+        <!-- Mobile menu button -->
+        <button class="md:hidden p-2 text-gray-600" aria-label="Menú">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
       </div>
-      <nav>
-        <a href="https://simacademy.lat" class="text-sm font-medium text-primary hover:text-accent transition-colors">sitio principal →</a>
-      </nav>
     </div>
   </header>
 
-  <!-- Hero -->
-  <main class="flex-1 flex items-center justify-center">
-    <div class="text-center px-6 py-20">
-      <div class="mb-8">
-        <span class="inline-block px-4 py-1.5 bg-accent/10 text-accent text-sm font-semibold rounded-full mb-6">🚀 Próximamente</span>
-        <h2 class="text-4xl md:text-5xl font-extrabold mb-4">
-          <span class="gradient-text">Blog de SimAcademy</span>
-        </h2>
-        <p class="text-lg text-gray-600 max-w-xl mx-auto mb-8">
-          Artículos sobre simulación clínica, formación médica continua, 
-          casos de estudio y las últimas tendencias en educación médica.
+  <!-- HERO / FEATURED POST -->
+  <section class="max-w-6xl mx-auto px-4 sm:px-6 py-10">
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+      <!-- Featured content -->
+      <div class="order-2 md:order-1">
+        <div class="flex items-center gap-3 mb-4">
+          <span class="text-xs font-bold text-white bg-brand-purple px-3 py-1 rounded-full uppercase tracking-wide">Destacado</span>
+          <span class="text-xs text-gray-500">Lectura de 8 min</span>
+        </div>
+        <h1 class="font-serif text-4xl md:text-5xl font-bold text-gray-900 leading-tight mb-4">
+          El futuro de la <span class="text-brand-purple">simulación clínica</span> en la educación médica mexicana
+        </h1>
+        <p class="text-gray-600 text-lg mb-6 leading-relaxed">
+          Cómo los simuladores de alta fidelidad están transformando la formación de médicos en México, cerrando la brecha entre la teoría y la práctica hospitalaria.
         </p>
-      </div>
-      
-      <!-- Logo showcase -->
-      <div class="flex justify-center gap-8 mb-12">
-        <div class="bg-white rounded-2xl p-6 shadow-lg">
-          <img src="assets/logos/SimAcademyLogo-v1.png" alt="SimAcademy Logo v1" class="h-20 mx-auto mb-2">
-          <p class="text-xs text-gray-400">v1</p>
+        <div class="flex items-center gap-4 mb-6">
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 rounded-full bg-brand-green flex items-center justify-center text-white text-xs font-bold">JM</div>
+            <span class="text-sm text-gray-700 font-medium">Juan Manuel Fraga</span>
+          </div>
+          <span class="text-sm text-gray-400">14 abril, 2026</span>
         </div>
-        <div class="bg-white rounded-2xl p-6 shadow-lg">
-          <img src="assets/logos/SimAcademyLogo-v2.png" alt="SimAcademy Logo v2" class="h-20 mx-auto mb-2">
-          <p class="text-xs text-gray-400">v2</p>
-        </div>
-        <div class="bg-white rounded-2xl p-6 shadow-lg">
-          <img src="assets/logos/SimAcademyLogo-v3.png" alt="SimAcademy Logo v3" class="h-20 mx-auto mb-2">
-          <p class="text-xs text-gray-400">v3</p>
-        </div>
-      </div>
-
-      <!-- CTA -->
-      <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="assets/brand/SimAcademy-Manual.pdf" class="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-xl font-semibold hover:bg-primary/90 transition-colors">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
-          Descargar Manual de Imagen
+        <a href="#articulo1" class="inline-flex items-center gap-2 bg-brand-purple text-white font-semibold px-6 py-3 rounded-xl hover:bg-brand-purpleDark transition-colors">
+          Leer artículo
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
         </a>
-        <a href="https://simacademy.lat" class="inline-flex items-center gap-2 bg-white text-primary border-2 border-primary px-6 py-3 rounded-xl font-semibold hover:bg-primary hover:text-white transition-colors">
-          Visitar SimAcademy.lat →
-        </a>
+      </div>
+      <!-- Featured image -->
+      <div class="order-1 md:order-2">
+        <div class="rounded-2xl overflow-hidden bg-gradient-to-br from-brand-purple to-brand-green aspect-[4/3] flex items-center justify-center">
+          <div class="text-center text-white p-8">
+            <div class="text-6xl mb-4">🏥</div>
+            <p class="font-serif text-2xl font-bold">Simulación Clínica</p>
+            <p class="text-white/80 text-sm mt-2">Alta fidelidad</p>
+          </div>
+        </div>
       </div>
     </div>
-  </main>
+  </section>
 
-  <!-- Footer -->
-  <footer class="bg-primary text-white/70 py-8">
-    <div class="max-w-5xl mx-auto px-6 text-center">
-      <p class="text-sm">© 2026 SimAcademy. Todos los derechos reservados.</p>
-      <p class="text-xs mt-2 text-white/40">Querétaro, Qro., México</p>
+  <!-- CATEGORIES STRIP -->
+  <section id="categorias" class="bg-gray-50 border-y border-gray-100">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4">
+      <div class="flex items-center gap-2 overflow-x-auto scrollbar-hide">
+        <span class="text-xs font-semibold text-gray-400 uppercase tracking-wide shrink-0">Categorías:</span>
+        <button class="tag-pill shrink-0 text-xs font-semibold px-3 py-1.5 rounded-full border border-brand-purple text-brand-purple bg-white">Simulación Clínica</button>
+        <button class="tag-pill shrink-0 text-xs font-semibold px-3 py-1.5 rounded-full border border-gray-200 text-gray-600 bg-white">Educación Médica</button>
+        <button class="tag-pill shrink-0 text-xs font-semibold px-3 py-1.5 rounded-full border border-gray-200 text-gray-600 bg-white">Casos Clínicos</button>
+        <button class="tag-pill shrink-0 text-xs font-semibold px-3 py-1.5 rounded-full border border-gray-200 text-gray-600 bg-white">IA en Medicina</button>
+        <button class="tag-pill shrink-0 text-xs font-semibold px-3 py-1.5 rounded-full border border-gray-200 text-gray-600 bg-white">Formación Continua</button>
+        <button class="tag-pill shrink-0 text-xs font-semibold px-3 py-1.5 rounded-full border border-gray-200 text-gray-600 bg-white">Best Practices</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- LATEST POSTS GRID -->
+  <section id="articulos" class="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+    <div class="flex items-center justify-between mb-8">
+      <h2 class="font-serif text-3xl font-bold text-gray-900">Artículos recientes</h2>
+      <a href="#" class="text-sm font-semibold text-brand-purple hover:underline">Ver todos →</a>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <!-- Post Card 1 -->
+      <article class="card-hover bg-white rounded-2xl border border-gray-100 overflow-hidden">
+        <div class="bg-gradient-to-br from-green-600 to-green-400 aspect-[16/9] flex items-center justify-center">
+          <div class="text-center text-white">
+            <div class="text-4xl mb-2">🧠</div>
+            <p class="text-xs font-medium text-white/80">Neurociencia</p>
+          </div>
+        </div>
+        <div class="p-5">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xs font-semibold text-brand-green bg-brand-green/10 px-2 py-0.5 rounded">Educación Médica</span>
+            <span class="text-xs text-gray-400">5 min</span>
+          </div>
+          <h3 class="font-bold text-gray-900 mb-2 leading-snug hover:text-brand-purple transition-colors cursor-pointer">Cómo la neurociencia está redefiniendo el aprendizaje en medicina</h3>
+          <p class="text-sm text-gray-500 mb-4 leading-relaxed">Los últimos estudios sobre memoria, atención y retención de conocimiento están cambiando cómo diseñamos programas de formación médica.</p>
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-1.5">
+              <div class="w-6 h-6 rounded-full bg-gray-200 flex items-center justify-center text-xs font-bold text-gray-500">JM</div>
+              <span class="text-xs text-gray-500">J.M. Fraga</span>
+            </div>
+            <span class="text-xs text-gray-400">7 abr, 2026</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Post Card 2 -->
+      <article class="card-hover bg-white rounded-2xl border border-gray-100 overflow-hidden">
+        <div class="bg-gradient-to-br from-purple-600 to-purple-400 aspect-[16/9] flex items-center justify-center">
+          <div class="text-center text-white">
+            <div class="text-4xl mb-2">🤖</div>
+            <p class="text-xs font-medium text-white/80">IA</p>
+          </div>
+        </div>
+        <div class="p-5">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xs font-semibold text-brand-purple bg-brand-purple/10 px-2 py-0.5 rounded">IA en Medicina</span>
+            <span class="text-xs text-gray-400">6 min</span>
+          </div>
+          <h3 class="font-bold text-gray-900 mb-2 leading-snug hover:text-brand-purple transition-colors cursor-pointer">ChatGPT como助教:用它来辅助医学教育</h3>
+          <p class="text-sm text-gray-500 mb-4 leading-relaxed">Casos de uso reales de IA generativa como complemento en la formación de profesionales de la salud, sin reemplazar el criterio médico.</p>
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-1.5">
+              <div class="w-6 h-6 rounded-full bg-gray-200 flex items-center justify-center text-xs font-bold text-gray-500">PX</div>
+              <span class="text-xs text-gray-500">Phoenix AI</span>
+            </div>
+            <span class="text-xs text-gray-400">31 mar, 2026</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Post Card 3 -->
+      <article class="card-hover bg-white rounded-2xl border border-gray-100 overflow-hidden">
+        <div class="bg-gradient-to-br from-brand-green to-brand-greenLight aspect-[16/9] flex items-center justify-center">
+          <div class="text-center text-white">
+            <div class="text-4xl mb-2">💻</div>
+            <p class="text-xs font-medium text-white/80">Simulación</p>
+          </div>
+        </div>
+        <div class="p-5">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="text-xs font-semibold text-brand-green bg-brand-green/10 px-2 py-0.5 rounded">Simulación Clínica</span>
+            <span class="text-xs text-gray-400">7 min</span>
+          </div>
+          <h3 class="font-bold text-gray-900 mb-2 leading-snug hover:text-brand-purple transition-colors cursor-pointer">Maniquíes de alta fidelidad: qué saber antes de comprar uno</h3>
+          <p class="text-sm text-gray-500 mb-4 leading-relaxed">Guía práctica para instituciones educativas que buscan invertir en simulación clínica de alto impacto.</p>
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-1.5">
+              <div class="w-6 h-6 rounded-full bg-gray-200 flex items-center justify-center text-xs font-bold text-gray-500">JM</div>
+              <span class="text-xs text-gray-500">J.M. Fraga</span>
+            </div>
+            <span class="text-xs text-gray-400">24 mar, 2026</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- NEWSLETTER CTA -->
+  <section class="bg-gradient-to-r from-brand-purpleDark to-brand-purple py-16">
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 text-center">
+      <h2 class="font-serif text-3xl font-bold text-white mb-3">Recibe artículos nuevos</h2>
+      <p class="text-white/80 mb-8">Cada semana un artículo nuevo sobre simulación clínica, educación médica y tendencias en salud.</p>
+      <form class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto" onsubmit="event.preventDefault(); this.querySelector('button').textContent='¡Suscrito!'; this.querySelector('button').classList.add('bg-green-500')">
+        <input type="email" placeholder="tu@email.com" required class="flex-1 px-4 py-3 rounded-xl text-gray-900 text-sm focus:outline-none focus:ring-2 focus:ring-white/50">
+        <button type="submit" class="bg-brand-green text-white font-semibold px-6 py-3 rounded-xl hover:bg-brand-greenDark transition-colors whitespace-nowrap">Suscribirme</button>
+      </form>
+      <p class="text-white/50 text-xs mt-3">Sin spam. Puedes darte de baja cuando quieras.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contacto" class="bg-gray-900 text-white/60 py-12">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      <div class="grid sm:grid-cols-3 gap-8 mb-8">
+        <div>
+          <div class="flex items-center gap-2 mb-3">
+            <img src="assets/logos/SimAcademyLogo-v3.png" alt="SimAcademy" class="h-8 brightness-0 invert">
+            <span class="font-bold text-white text-lg">SimAcademy</span>
+          </div>
+          <p class="text-sm text-white/60 leading-relaxed">Formación médica de alta fidelidad y simulación clínica en México.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-white text-sm mb-3">Explorar</h4>
+          <ul class="space-y-2 text-sm">
+            <li><a href="https://simacademy.lat" class="hover:text-brand-purpleLight transition-colors">SimAcademy.lat</a></li>
+            <li><a href="#articulos" class="hover:text-brand-purpleLight transition-colors">Blog</a></li>
+            <li><a href="#" class="hover:text-brand-purpleLight transition-colors">Cursos</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-white text-sm mb-3">Contacto</h4>
+          <ul class="space-y-2 text-sm">
+            <li>Querétaro, Qro., México</li>
+            <li>contacto@simacademy.lat</li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <p class="text-xs">© 2026 SimAcademy. Todos los derechos reservados.</p>
+        <div class="flex items-center gap-4">
+          <a href="#" class="text-white/40 hover:text-brand-purpleLight transition-colors text-sm">LinkedIn</a>
+          <a href="#" class="text-white/40 hover:text-brand-purpleLight transition-colors text-sm">Instagram</a>
+        </div>
+      </div>
     </div>
   </footer>
 
