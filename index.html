@@ -3,15 +3,108 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SimAcademy Blog</title>
+  <title>SimAcademy | Educación Médica y Simulación Clínica</title>
+  <meta name="description" content="SimAcademy - Formación médica de alta fidelidad, simulación clínica y educación médica continua en México.">
+  <meta property="og:title" content="SimAcademy | Educación Médica y Simulación Clínica">
+  <meta property="og:description" content="Formación médica de alta fidelidad, simulación clínica y educación médica continua en México.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://blog.simacademy.lat">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#1a1a2e',
+            accent: '#e63946',
+            surface: '#f8f9fa'
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
   <style>
-    body { font-family: system-ui, sans-serif; max-width: 800px; margin: 100px auto; padding: 20px; text-align: center; }
-    h1 { color: #1a1a2e; }
-    p { color: #666; }
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    .gradient-text {
+      background: linear-gradient(135deg, #1a1a2e 0%, #e63946 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   </style>
 </head>
-<body>
-  <h1>SimAcademy Blog</h1>
-  <p>Próximamente — blog.simacademy.lat</p>
+<body class="bg-surface text-primary min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="bg-white shadow-sm">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <img src="assets/logos/SimAcademyLogo-v3.png" alt="SimAcademy" class="h-12">
+        <div>
+          <h1 class="text-xl font-bold text-primary">SimAcademy</h1>
+          <p class="text-xs text-gray-500">Educación Médica y Simulación Clínica</p>
+        </div>
+      </div>
+      <nav>
+        <a href="https://simacademy.lat" class="text-sm font-medium text-primary hover:text-accent transition-colors">sitio principal →</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main class="flex-1 flex items-center justify-center">
+    <div class="text-center px-6 py-20">
+      <div class="mb-8">
+        <span class="inline-block px-4 py-1.5 bg-accent/10 text-accent text-sm font-semibold rounded-full mb-6">🚀 Próximamente</span>
+        <h2 class="text-4xl md:text-5xl font-extrabold mb-4">
+          <span class="gradient-text">Blog de SimAcademy</span>
+        </h2>
+        <p class="text-lg text-gray-600 max-w-xl mx-auto mb-8">
+          Artículos sobre simulación clínica, formación médica continua, 
+          casos de estudio y las últimas tendencias en educación médica.
+        </p>
+      </div>
+      
+      <!-- Logo showcase -->
+      <div class="flex justify-center gap-8 mb-12">
+        <div class="bg-white rounded-2xl p-6 shadow-lg">
+          <img src="assets/logos/SimAcademyLogo-v1.png" alt="SimAcademy Logo v1" class="h-20 mx-auto mb-2">
+          <p class="text-xs text-gray-400">v1</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 shadow-lg">
+          <img src="assets/logos/SimAcademyLogo-v2.png" alt="SimAcademy Logo v2" class="h-20 mx-auto mb-2">
+          <p class="text-xs text-gray-400">v2</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 shadow-lg">
+          <img src="assets/logos/SimAcademyLogo-v3.png" alt="SimAcademy Logo v3" class="h-20 mx-auto mb-2">
+          <p class="text-xs text-gray-400">v3</p>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="assets/brand/SimAcademy-Manual.pdf" class="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-xl font-semibold hover:bg-primary/90 transition-colors">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+          Descargar Manual de Imagen
+        </a>
+        <a href="https://simacademy.lat" class="inline-flex items-center gap-2 bg-white text-primary border-2 border-primary px-6 py-3 rounded-xl font-semibold hover:bg-primary hover:text-white transition-colors">
+          Visitar SimAcademy.lat →
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-primary text-white/70 py-8">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <p class="text-sm">© 2026 SimAcademy. Todos los derechos reservados.</p>
+      <p class="text-xs mt-2 text-white/40">Querétaro, Qro., México</p>
+    </div>
+  </footer>
+
 </body>
 </html>
