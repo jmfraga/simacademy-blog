@@ -17,10 +17,12 @@ topics:
 
   - id: simuladores-alta-fidelidad
     title: "Por qué los simuladores de alta fidelidad no son un lujo sino una necesidad"
-    status: pending
-    notes: "Autor: J.M. Fraga. Tag: Simulación Clínica. Requiere input de Juan Ma."
+    status: scheduled
+    scheduled_for: "2026-05-01"
+    notes: "Autor: J.M. Fraga. Tag: Simulación Clínica."
 
   - id: neurociencia-aprendizaje-medicina
     title: "Cómo la neurociencia está redefiniendo el aprendizaje en medicina"
-    status: pending
-    notes: "Autor: J.M. Fraga. Tag: Educación Médica. Requiere input de Juan Ma."
+    status: scheduled
+    scheduled_for: "2026-05-08"
+    notes: "Autor: J.M. Fraga. Tag: Educación Médica."
