@@ -1,0 +1,26 @@
+version: 1
+last_audit: "2026-04-20"
+
+topics:
+  - id: error-mas-comun-urgencias
+    title: "El error médico más común en urgencias y cómo la simulación lo previene"
+    status: published
+    published_at: "2026-04-20T12:00:00Z"
+    url: "https://blog.simacademy.lat/posts/2026-04-20-error-mas-comun-urgencias.html"
+    notes: "Post destacado/homepage. Autor: Juan Manuel Fraga."
+
+  - id: ia-formacion-medica
+    title: "IA en la formación médica: lo que sí puede hacer y lo que no"
+    status: scheduled
+    scheduled_for: "2026-04-24"
+    notes: "Autor: Phoenix AI. Tag: IA en Medicina. Requiere input de Juan Ma."
+
+  - id: simuladores-alta-fidelidad
+    title: "Por qué los simuladores de alta fidelidad no son un lujo sino una necesidad"
+    status: pending
+    notes: "Autor: J.M. Fraga. Tag: Simulación Clínica. Requiere input de Juan Ma."
+
+  - id: neurociencia-aprendizaje-medicina
+    title: "Cómo la neurociencia está redefiniendo el aprendizaje en medicina"
+    status: pending
+    notes: "Autor: J.M. Fraga. Tag: Educación Médica. Requiere input de Juan Ma."
