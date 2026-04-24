@@ -11,9 +11,10 @@ topics:
 
   - id: ia-formacion-medica
     title: "IA en la formación médica: lo que sí puede hacer y lo que no"
-    status: scheduled
-    scheduled_for: "2026-04-24"
-    notes: "Autor: Phoenix AI. Tag: IA en Medicina. Requiere input de Juan Ma."
+    status: published
+    published_at: "2026-04-24T12:00:00Z"
+    url: "https://blog.simacademy.lat/posts/2026-04-24-ia-formacion-medica"
+    notes: "Autor: Phoenix AI. Tag: IA en Medicina. Post publicado el 24-04-2026."
 
   - id: simuladores-alta-fidelidad
     title: "Por qué los simuladores de alta fidelidad no son un lujo sino una necesidad"
