@@ -1,0 +1,24 @@
+{
+  "cursos": [
+    {
+      "id": "eusim2",
+      "titulo": "EuSim Nivel 2",
+      "subtitulo": "Avanzado · 100% en línea",
+      "fechaInicio": "2026-07-30",
+      "fechaTexto": "30 jul – 10 sep 2026",
+      "url": "https://info.simacademy.lat/eusim2/",
+      "eyebrow": "Avanzado",
+      "estado": "abierto"
+    },
+    {
+      "id": "eusim1sep",
+      "titulo": "EuSim Nivel 1",
+      "subtitulo": "Fundamentos · presencial",
+      "fechaInicio": "2026-09-24",
+      "fechaTexto": "24–26 sep 2026",
+      "url": "https://info.simacademy.lat/eusim1sep/",
+      "eyebrow": "Fundamentos",
+      "estado": "abierto"
+    }
+  ]
+}
