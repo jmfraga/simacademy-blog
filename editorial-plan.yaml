@@ -1,5 +1,5 @@
 version: 1
-last_audit: "2026-04-20"
+last_audit: "2026-05-01"
 
 topics:
   - id: error-mas-comun-urgencias
@@ -24,6 +24,7 @@ topics:
 
   - id: neurociencia-aprendizaje-medicina
     title: "Cómo la neurociencia está redefiniendo el aprendizaje en medicina"
-    status: scheduled
-    scheduled_for: "2026-05-08"
-    notes: "Autor: J.M. Fraga. Tag: Educación Médica."
+    status: published
+    published_at: "2026-05-08T12:00:00Z"
+    url: "https://blog.simacademy.lat/posts/2026-05-08-neurociencia-aprendizaje-medicina.html"
+    notes: "Autor: Dr. Juan Manuel Fraga. Tag: Educación Médica. Reescrito desde draft de Phoenix (voseo argentino + citas alucinadas) con 6 referencias verificadas en PubMed: Roediger&Karpicke 2006, Cepeda 2006, Price 2025 (RCT n=26,258), van Merriënboer&Sweller 2010, Cook 2011 JAMA, McGaghie 2011 Acad Med. CTA a EuSim Nivel 2."
