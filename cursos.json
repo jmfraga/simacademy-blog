@@ -19,6 +19,16 @@
       "url": "https://info.simacademy.lat/eusim1sep/",
       "eyebrow": "Fundamentos",
       "estado": "abierto"
+    },
+    {
+      "id": "actores",
+      "titulo": "Formación de Actores",
+      "subtitulo": "54 h · modalidad mixta",
+      "fechaInicio": "2026-10-16",
+      "fechaTexto": "16–17 oct 2026 (presencial)",
+      "url": "https://info.simacademy.lat/actores/",
+      "eyebrow": "Pacientes Simulados",
+      "estado": "abierto"
     }
   ]
 }
