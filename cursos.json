@@ -1,6 +1,16 @@
 {
   "cursos": [
     {
+      "id": "has-magia-con-claude",
+      "titulo": "Has Magia con Claude",
+      "subtitulo": "6 sem · 36 h · 100% en línea",
+      "fechaInicio": "2026-07-01",
+      "fechaTexto": "jul – ago 2026",
+      "url": "https://info.simacademy.lat/has-magia-con-claude/",
+      "eyebrow": "IA aplicada a salud",
+      "estado": "abierto"
+    },
+    {
       "id": "eusim2",
       "titulo": "EuSim Nivel 2",
       "subtitulo": "Avanzado · 100% en línea",
