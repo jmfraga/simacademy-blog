@@ -39,6 +39,26 @@
       "url": "https://info.simacademy.lat/actores/",
       "eyebrow": "Pacientes Simulados",
       "estado": "abierto"
+    },
+    {
+      "id": "debriefing",
+      "titulo": "Profundización en Debriefing con Apoyo de IA",
+      "subtitulo": "Curso de 5 meses, 100% en línea, para facilitadores de simulación, docentes clínicos e instructores que ya facilitan deb",
+      "fechaInicio": "2026-08-01",
+      "fechaTexto": "01/08/2026",
+      "url": "https://info.simacademy.lat/debriefing/",
+      "eyebrow": "",
+      "estado": "abierto"
+    },
+    {
+      "id": "mindfulness1",
+      "titulo": "Mindfulness en la Práctica Clínica",
+      "subtitulo": "",
+      "fechaInicio": "",
+      "fechaTexto": "",
+      "url": "https://info.simacademy.lat/mindfulness1/",
+      "eyebrow": "",
+      "estado": "oculto"
     }
   ]
 }
