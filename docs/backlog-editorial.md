@@ -9,7 +9,7 @@ Cada tema lista: título tentativo SEO-friendly, audiencia primaria, ángulo, en
 
 ## P0 — Alta prioridad (próximas 4 semanas)
 
-### 1. Debriefing estructurado: PEARLS, GAS y advocacy-inquiry comparados
+### 1. Debriefing estructurado: PEARLS, GAS y advocacy-inquiry comparados [PUBLICADO 2026-05-18]
 - **Audiencia**: facilitadores de simulación, jefes de programa, instructores en formación.
 - **Ángulo**: hay tres marcos dominantes para conducir un debriefing y la mayoría los mezcla sin criterio. Comparativa práctica con cuándo conviene cada uno y errores típicos.
 - **Enganche con landings**: `/eusim1/` y `/eusim2/` — el debriefing es contenido nuclear de ambos. CTA natural: "aprende a facilitarlo en EuSim Nivel 1/2".
