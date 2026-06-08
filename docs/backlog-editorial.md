@@ -73,7 +73,7 @@ Cada tema lista: título tentativo SEO-friendly, audiencia primaria, ángulo, en
 - **Keyword principal**: "evaluación competencias residencia médica".
 - **Prioridad**: baja (pero valioso para leads institucionales).
 
-### 9. Simulación interprofesional: por qué entrenar al equipo, no al individuo
+### 9. Simulación interprofesional: por qué entrenar al equipo, no al individuo [PUBLICADO 2026-06-08]
 - **Audiencia**: directores médicos, coordinadores de urgencias, jefes de enfermería.
 - **Ángulo**: el error clínico raras veces es de una persona — es del sistema. Caso a favor de entrenar al equipo completo (médico+enfermería+camillería+RRHH) en escenarios conjuntos.
 - **Enganche con landings**: `/eusim2/` (interprofesional es uno de los ejes) + tema "transferencias seguras" del post de abril.
