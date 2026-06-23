@@ -16,7 +16,7 @@ Cada tema lista: título tentativo SEO-friendly, audiencia primaria, ángulo, en
 - **Keyword principal**: "debriefing simulación clínica" (volumen ES bajo pero alta intención).
 - **Prioridad**: alta.
 
-### 2. Cómo construir un escenario clínico simulado paso a paso
+### 2. Cómo construir un escenario clínico simulado paso a paso [PUBLICADO 2026-06-23]
 - **Audiencia**: docentes de simulación que arrancan un programa, residentes que diseñan casos.
 - **Ángulo**: del objetivo de aprendizaje al script del paciente simulado, pasando por checkpoints, errores frecuentes y rúbrica. Formato guía operativa.
 - **Enganche con landings**: `/eusim1/` (formación de instructores) — engancha con el módulo de diseño de escenarios.
