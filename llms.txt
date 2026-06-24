@@ -1,0 +1,24 @@
+# SimAcademy · Blog
+
+> Blog de SimAcademy sobre educación médica basada en simulación clínica: debriefing, paciente simulado, fidelidad, diseño de escenarios, neurociencia del aprendizaje y aplicaciones de IA en formación de profesionales de la salud.
+
+Tono profesional, técnico-cálido, sin hype. Los posts citan guías y estándares verificables (INACSL, ASPE, AHA, PubMed). Dirigido a directores de centros de simulación, educadores clínicos, residentes, paramédicos e instructores.
+
+Mantenimiento: este índice se regenera automáticamente cuando se publica un post nuevo desde Marketing Studio (`marketing.simacademy.lat`). Para escribir un post no listado aquí, contacta al equipo editorial.
+
+## Posts
+
+- [Cómo construir un escenario clínico simulado paso a paso](https://blog.simacademy.lat/posts/2026-06-23-como-construir-un-escenario-clinico-simulado-paso-a-paso.html): Guía operativa para diseñar escenarios de simulación clínica — del objetivo de aprendizaje al script del paciente simulado, checkpoints, errores frecuentes y rúbrica de evaluación.
+- [Simulación interprofesional: por qué entrenar al equipo, no al individuo](https://blog.simacademy.lat/posts/2026-06-08-simulacion-interprofesional-entrenar-al-equipo.html): El error clínico rara vez es culpa de una sola persona; es un fallo del sistema. Por qué la simulación interprofesional es la estrategia más efectiva para reducir eventos adversos.
+- [Simulación clínica vs role-play: diferencias clave](https://blog.simacademy.lat/posts/2026-06-03-simulacion-clinica-vs-role-play.html): Cuándo usar cada enfoque y por qué la distinción importa para tu programa educativo.
+- [Fidelidad en simulación clínica: cuándo conviene baja, media o alta](https://blog.simacademy.lat/posts/2026-05-22-fidelidad-en-simulacion-clinica-cuando-conviene-baja-media-o-alta.html): Cómo elegir el nivel de fidelidad según objetivo de aprendizaje, etapa del aprendiz y recursos disponibles. Más realismo no siempre significa mejor aprendizaje.
+- [Debriefing estructurado: PEARLS, GAS y advocacy-inquiry comparados](https://blog.simacademy.lat/posts/2026-05-18-debriefing-estructurado-pearls-gas-y-advocacy-inquiry-comparados.html): Comparativa práctica de los tres marcos dominantes para conducir un debriefing en simulación, con errores típicos que cometen los facilitadores.
+- [Neurociencia del aprendizaje en medicina](https://blog.simacademy.lat/posts/2026-05-08-neurociencia-aprendizaje-medicina.html): Curva del olvido, práctica recuperativa y simulación clínica de alta fidelidad desde la lente de la neurociencia cognitiva.
+- [¿Qué es un paciente simulado?](https://blog.simacademy.lat/posts/2026-05-06-que-es-un-paciente-simulado.html): Definición, diferencia con paciente estandarizado, rol en educación médica y estándares internacionales (ASPE, INACSL).
+- [IA en formación médica](https://blog.simacademy.lat/posts/2026-04-24-ia-formacion-medica.html): Qué puede y qué no puede hacer la inteligencia artificial en la formación de profesionales de salud.
+- [El error médico más común en urgencias](https://blog.simacademy.lat/posts/2026-04-20-error-mas-comun-urgencias.html): Cuál es el error más frecuente y cómo la simulación clínica de alta fidelidad ayuda a reducirlo.
+
+## Otros recursos
+
+- [Cursos SimAcademy](https://info.simacademy.lat/): Landings de los cursos vivos con fechas, inversión y formato.
+- [Sitio principal SimAcademy](https://www.simacademy.lat/): Información institucional, equipo, política de cancelación.
